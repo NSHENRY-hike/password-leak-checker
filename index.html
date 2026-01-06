@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Password Leak Checker</title>
+  <meta name="Check if your password has been exposed in data breaches. We never store or send your password." content="Check if your password has been exposed in data breaches. We never store or send your password." />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="container">
+    <h1>🔐 Password Leak Checker</h1>
+    <p class="subtitle">
+      Check if your password has appeared in known data breaches.
+      <br><strong>We never store or send your password.</strong>
+    </p>
+
+    <!-- AD PLACEHOLDER (TOP) -->
+    <div class="ad">Ad Space</div>
+
+    <input
+      type="password"
+      id="passwordInput"
+      placeholder="Enter password"
+    />
+
+    <button onclick="checkPassword()">Check Password</button>
+
+    <div id="result"></div>
+
+    <!-- AD PLACEHOLDER (RESULT) -->
+    <div class="ad">Ad Space</div>
+
+    <p class="privacy">
+      This tool uses k-anonymity. Your password never leaves your device.
+    </p>
+
+    <hr style="margin:20px 0; border-color:#334155;">
+<footer>
+  <p>
+    <a href="index.html">Home</a> |
+    <a href="privacy.html">Privacy Policy</a> |
+    <a href="about.html">About</a> |
+    <a href="disclaimer.html">Disclaimer</a>
+  </p>
+  <p style="font-size:12px; color:#64748b;">© 2026 Password Leak Checker. All rights reserved.</p>
+</footer>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
